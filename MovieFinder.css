@@ -3,6 +3,18 @@ body{
 	background:#000;
 }
 
+
+.movie_name{
+  	border: 5px solid;
+  	margin: auto;
+  	width: 50%;
+  	padding: 10px;
+}
+
+.input{
+	text-align: center;  
+}
+
 .movies{
 	width: 100%;
 	display: flex;
