@@ -1,18 +1,55 @@
 
 body{
 	background:#000;
+	background-image: url("bg_image.jpg");
 }
 
+.message {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.5);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
 
 .movie_name{
-  	border: 5px solid;
-  	margin: auto;
+  	margin: 50px auto 10px;
   	width: 50%;
   	padding: 10px;
 }
 
+::placeholder{
+	color: black;
+}
+
 .input{
-	text-align: center;  
+	padding: 8px;
+	border-radius: 10px;
+	margin: 5px auto;
+	border: 1px solid #918383;
+	background-color: #87b8b8;
+	box-shadow: 1px 2px 1px 2px rgb(230, 229, 229);
+	color: black;
+	outline: none;
+	font-size: 18px;
+}
+
+.button{
+	margin-left: 20px;
+	padding: 8px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 1px 2px rgb(131, 131, 219) ;
+	border: 1px solid gray;
+	font-size: 18px;
+}
+
+.button:hover{
+	background-color: cadetblue;
+	color: rgb(246, 244, 248);
 }
 
 .movies{
